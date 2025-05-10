@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- META TAGS -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <!-- HEADER AND NAVEGATION BAR -->
+    <header>
+        <div class="logo">
+            <img src="https://i.pinimg.com/736x/35/96/47/359647a1110d0bd2aa48a0de48d7b584.jpg" alt="Logo">
+        </div>
+
+        <h2>Jorge Camargo</h2>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" target="_blank">Projects</a></li>
+                <li><a href="articles.html" target="_blank">Articles</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- WEBSITE BODY -->
+
+    <main>
+        <section class="intro">
+            <h1>Frontend Developer</h1>
+            <p>I build websites</p>
+        </section>
+        
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>HTML Only Portfolio</li>
+                <li>Calculator</li>
+                <li>Quizz App</li>
+                <li>Countdown Timer</li>
+                <li>Product Upcoming Page</li>
+            </ul>
+        </section>
+
+        <section class="work_experience">
+            <article>
+            <h2>Work Experience</h2>
+            <h3>roadmap.sh</h3>
+            <p>Solved all the frontend projects</p>
+            <a href="https://www.instagram.com/j.camargom/">Visit my profile</a>
+            <article>
+            <article>
+                <h3>OpenSource Work</h3>
+                <p>Contributed to 50 OpenSource projects. Made my own projects with 200 GitHub Stars.</p>
+                <a href="">Visit my GitHub profile</a>
+            </article>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions. <br>Courses I took:</p>
+            <ul>
+                <li>Object Oriented Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Web Engineering</li>
+                <li>Artificial Intelligence</li>
+                <li>Human Computer Interaction</li>
+                <li>Computer Graphics</li>
+                <li>Database Management Systems</li>
+                <li>Distributed Database Systems</li>
+                <li>Discreet Mathematics</li>
+            </ul>
+        </section>
+    </main>
+
+    <aside class="reviews">
+        <h2>Reviews from my teachers</h2>
+        <blockquote>
+            <p>Jorge was a brilliant student; always stood out with his assignments.</p>
+            <footer>Jane Doe <br>Assistant Professor</footer>
+        </blockquote>
+        <blockquote>
+            <p>Jorge was a briliant student; always stood out with his assignments.</p>
+            <footer>Jane Doe <br>Assistant Professor</footer>
+        </blockquote>
+        <blockquote>
+            <p>Jorge was a brilliant student; always stood out for his assignments</p>
+            <footer>Jane Doe <br>Assistant Professor</footer>
+        </blockquote>
+    </aside>
+
+    <footer>
+        <p>&copy; all rights reserved 2025</p>
+    </footer>
+</body>
+</html>
